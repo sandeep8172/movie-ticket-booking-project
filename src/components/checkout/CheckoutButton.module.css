@@ -1,0 +1,19 @@
+.book {
+    text-align: right;
+    margin-top: 2vh;
+    margin-right: 8vw;
+}
+
+.book button {
+    background-color: rgb(76, 76, 198);
+    border: none;
+    padding: 1vh 2vh;
+    border-radius: 3vh;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.book button:hover {
+    background-color: rgb(39, 99, 39);
+    cursor: pointer;
+}

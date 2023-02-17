@@ -1,0 +1,35 @@
+.second {
+    text-align: center;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 68vw;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.second hr {
+    width: 68vw;
+}
+
+.second button {
+    margin: 1vw;
+    font-size: 1vw;
+    border: 0.12vw solid green;
+    color: rgb(58, 52, 52);
+    width: 2vw;
+    padding: 0.5vh 0;
+    border-radius: 1vh 1vh 0 0;
+    background-color: white;
+}
+
+.second button:hover {
+    background-color: rgb(76, 171, 76);
+    color: white;
+}
+
+.second .disabled {
+    background-color: rgb(198, 182, 182);
+    color: white;
+}

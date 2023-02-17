@@ -1,0 +1,35 @@
+.first {
+    text-align: center;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 68vw;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.first hr {
+    width: 68vw;
+}
+
+.first button {
+    margin: 1vw;
+    font-size: 1vw;
+    border: 0.12vw solid green;
+    color: rgb(58, 52, 52);
+    width: 2vw;
+    padding: 0.5vh 0;
+    border-radius: 1vh 1vh 0 0;
+    background-color: white;
+}
+
+.first button:hover {
+    background-color: rgb(76, 171, 76);
+    color: white;
+}
+
+.first .disabled {
+    background-color: rgb(198, 182, 182);
+    color: white;
+}

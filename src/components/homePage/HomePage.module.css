@@ -1,0 +1,32 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2vw;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.cards div {
+    width: 22%;
+    height: 80vh;
+    border-radius: 1rem;
+}
+
+.cards div:hover {
+    background-color: rgb(199, 216, 199);
+}
+
+.cards img {
+    width: 100%;
+    height: 84%;
+    border-radius: 1rem;
+}
+
+.cards h4 {
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+.cards p {
+    margin-top: -1rem;
+}
